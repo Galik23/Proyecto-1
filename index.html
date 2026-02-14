@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Letter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>💌 Valentine Letter 💌</h1>
+
+    <div class="envelope" onclick="openLetter()">💌 Toca para abrir</div>
+
+    <div class="letter hidden" id="letter">
+      <h2>♡ Letter for You ♡</h2>
+      <img src="https://media.tenor.com/0AVbKGY_MxMAAAAC/love.gif" alt="GIF" class="gif">
+      
+      <div class="buttons">
+        <button class="yes-btn" onclick="sayYes()">Yes 💖</button>
+        <button class="no-btn" id="noBtn">No 😢</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
